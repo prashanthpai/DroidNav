@@ -1,0 +1,67 @@
+Following links have been very helpful in making this app.
+
+Check an IP Address Reachable or not
+http://stackoverflow.com/questions/7937532/how-to-check-an-ip-address-reachable-or-not
+
+Adding a fling gesture listener to a view
+http://illusionsandroid.blogspot.in/2011/05/adding-fling-gesture-listener-to-view.html
+
+Use Android’s gesture detector to translate a swipe into an event
+http://www.techrepublic.com/blog/app-builder/use-androids-gesture-detector-to-translate-a-swipe-into-an-event/1577
+
+Android Thread Constructs: Comparisons
+http://techtej.blogspot.in/2011/03/android-thread-constructspart-4.html
+
+Robot Class
+http://docs.oracle.com/javase/6/docs/api/java/awt/Robot.html
+
+Java Constant Field Values
+http://docs.oracle.com/javase/6/docs/api/constant-values.html
+
+Bind service using IBinder class
+http://dharmendra4android.blogspot.in/2012/05/bind-service-using-ibinder-class.html
+
+Android service for TCP Sockets
+http://stackoverflow.com/questions/3619372/android-service-for-tcp-sockets
+
+Notifications - Android Tutorial for Beginners
+http://saigeethamn.blogspot.in/2009/09/android-developer-tutorial-for.html
+
+Local Service | Android Tutorial for Beginners
+http://saigeethamn.blogspot.in/2009/09/android-developer-tutorial-for_04.html
+
+Android Service
+http://developer.android.com/reference/android/app/Service.html
+
+Socket sharing between activities
+https://groups.google.com/forum/?fromgroups=#!topic/android-developers/yxOzuMGlcSo
+
+Android Layouts
+http://www.androidhive.info/2011/07/android-layouts-linear-layout-relative-layout-and-table-layout/
+
+How to switch beteen Multiple Activities in Android
+http://stackoverflow.com/questions/3855729/how-to-switch-beteen-multiple-activities-in-android
+
+droidmote
+https://code.google.com/p/droidmote/
+
+pass data between activities in Android?
+http://stackoverflow.com/questions/2091465/how-do-i-pass-data-between-activities-in-android
+
+Multiple Sensor Data in Android
+http://stackoverflow.com/questions/4343342/is-there-a-way-to-retrieve-multiple-sensor-data-in-android
+
+Proximity Sensor on Android Gingerbread
+http://thecodeartist.blogspot.in/2011/01/proximity-sensor-on-android-gingerbread.html
+
+Proximity Sensor on Android Gingerbread
+http://thinkandroid.wordpress.com/2010/03/27/incorporating-socket-programming-into-your-applications/
+
+NirCmd
+http://www.nirsoft.net/utils/nircmd.html
+
+Jacek Fedorynski's blog
+http://blog.jfedor.org/2011/08/android-phone-as-touchpad-for-pc.html
+
+Asim Mittal - Coolstone
+http://accelplot.svn.sourceforge.net/

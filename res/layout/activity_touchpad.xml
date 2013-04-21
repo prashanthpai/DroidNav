@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:id="@+id/touchpad"
+    android:background="#BFE056"
+    tools:context=".TouchpadActivity" >
+
+    <Button
+        android:id="@+id/buttonLeftClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/viewSeparator"
+        android:layout_toRightOf="@+id/viewSeparator"
+        android:text="Left Click" />
+
+    <View
+        android:id="@+id/viewSeparator"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/buttonRightClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/viewSeparator"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_toLeftOf="@+id/viewSeparator"
+        android:text="Right Click" />
+
+    <com.pp.droidnav.ScrollPadView
+        android:id="@+id/viewScrollPad"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonRightClick"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#D8F96C" />
+
+    <com.pp.droidnav.TouchPadView
+        android:id="@+id/viewTouchPad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/viewScrollPad"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/viewScrollPad"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+</RelativeLayout>

@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#292929"
+    android:orientation="vertical"
+    tools:context=".ConnectionActivity" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" >
+
+        <EditText
+            android:id="@+id/editTextIP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@+id/textViewIP"
+            android:digits="0123456789."
+            android:ems="10"
+            android:inputType="phone"
+            android:maxLength="15"
+            android:maxLines="1" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/editTextPort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editTextIP"
+            android:layout_below="@+id/editTextIP"
+            android:digits="0123456789"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="5"
+            android:maxLines="1" />
+
+        <TextView
+            android:id="@+id/textViewIP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/editTextIP"
+            android:layout_alignParentLeft="true"
+            android:text="IP"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textViewPort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/editTextPort"
+            android:layout_alignParentLeft="true"
+            android:text="Port"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ToggleButton
+            android:id="@+id/toggleButtonConnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editTextPort"
+            android:layout_below="@+id/editTextPort"
+            android:checked="false"
+            android:minEms="7"
+            android:textOff="Disconnected"
+            android:textOn="Connected"
+            android:onClick="onToggleClicked" />
+    </RelativeLayout>
+
+    <TableLayout
+        android:id="@+id/linearLayoutFunctions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true" >
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/buttonPresenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="Presenter" />
+
+        <Button
+            android:id="@+id/buttonSensor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="Sensor" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/buttonTouchpad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Touchpad"
+                android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="Send Text" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

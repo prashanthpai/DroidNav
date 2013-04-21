@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:background="#292929"
+    tools:context=".PresenterActivity" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/buttonStart"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textSize="35sp"
+                android:layout_weight="1"
+                android:onClick="buttonAction"
+                android:text="Start" />
+
+            <Button
+                android:id="@+id/buttonEnd"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textSize="35sp"
+                android:layout_weight="1"
+                android:onClick="buttonAction"
+                android:text="End" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/buttonFirst"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textSize="35sp"
+                android:layout_weight="1"
+                android:onClick="buttonAction"
+                android:text="First" />
+
+            <Button
+                android:id="@+id/buttonLast"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textSize="35sp"
+                android:layout_weight="1"
+                android:onClick="buttonAction"
+                android:text="Last" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/buttonBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:textSize="35sp"
+                android:onClick="buttonAction"
+                android:text="Black" />
+
+            <Button
+                android:id="@+id/buttonWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textSize="35sp"
+                android:layout_weight="1"
+                android:onClick="buttonAction"
+                android:text="White" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/buttonPrev"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textSize="35sp"
+                android:layout_weight="1"
+                android:onClick="buttonAction"
+                android:text="Prev" />
+
+            <Button
+                android:id="@+id/buttonNext"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textSize="35sp"
+                android:layout_weight="1"
+                android:onClick="buttonAction"
+                android:text="Next" />
+
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
